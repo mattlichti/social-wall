@@ -6,7 +6,7 @@ get("/") do
   html.concat("<div><a href='/waffles/chocolate'>show me chocolate</a></div>")
   html.concat("<div><a href='/bake?baked_good=cookies&count=10'>bake 10 cookies</a></div>")
   html.concat("<div><a href='/bake?baked_good=cronut&count=5'>bake 5 cronuts</a></div>")
-  html.concat("<div><a href='/bake?baked_good=cupcakes&count=1138'>bake 1138 cupcakes</a></div>")
+  html.concat("<div><a href='/bake?baked_good=cupcakes&count=1500'>bake 1500 cupcakes</a></div>")
   body(html)
 end
 
