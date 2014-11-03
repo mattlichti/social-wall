@@ -2,7 +2,6 @@ require 'sinatra'     # Load the Sinatra web framework
 
 get("/") do
   html = "Hello, world!"
-  html = "ddddd!"
   html.concat("<div><a href='/waffles'>show me waffles</a></div>")
   html.concat("<div><a href='/waffles/chocolate'>show me chocolate</a></div>")
   html.concat("<div><a href='/bake?baked_good=cookies&count=10'>bake 10 cookies</a></div>")
